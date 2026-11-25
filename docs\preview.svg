@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img" aria-label="PDFs flow into the Zotero library and become Word citation fields">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f9fc"/>
+      <stop offset="1" stop-color="#e6ecf6"/>
+    </linearGradient>
+    <linearGradient id="doc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef2f9"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="300" rx="18" fill="url(#bg)"/>
+
+  <!-- PDF stack -->
+  <g>
+    <rect x="48" y="96" width="86" height="112" rx="8" fill="#ffffff" stroke="#c9d4e4" stroke-width="2"/>
+    <rect x="60" y="84" width="86" height="112" rx="8" fill="#ffffff" stroke="#c9d4e4" stroke-width="2"/>
+    <rect x="72" y="72" width="86" height="112" rx="8" fill="url(#doc)" stroke="#b7c4d8" stroke-width="2"/>
+    <g fill="#93a3bd">
+      <rect x="84" y="94" width="52" height="5" rx="2.5"/>
+      <rect x="84" y="108" width="62" height="5" rx="2.5"/>
+      <rect x="84" y="122" width="44" height="5" rx="2.5"/>
+      <rect x="84" y="136" width="58" height="5" rx="2.5"/>
+    </g>
+    <rect x="84" y="158" width="30" height="10" rx="3" fill="#c4551f" opacity="0.85"/>
+  </g>
+
+  <!-- arrow into library -->
+  <path d="M176 128h64" stroke="#8fa2bd" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 10"/>
+  <path d="M232 121l12 7-12 7z" fill="#8fa2bd"/>
+
+  <!-- library card -->
+  <g>
+    <rect x="252" y="66" width="132" height="132" rx="14" fill="#1f2a44"/>
+    <rect x="268" y="86" width="100" height="12" rx="6" fill="#3a4a6b"/>
+    <g fill="#8fa2bd">
+      <rect x="268" y="112" width="76" height="8" rx="4"/>
+      <rect x="268" y="128" width="88" height="8" rx="4"/>
+      <rect x="268" y="144" width="64" height="8" rx="4"/>
+    </g>
+    <rect x="268" y="166" width="46" height="16" rx="8" fill="#c4551f"/>
+  </g>
+
+  <!-- arrow into document -->
+  <path d="M392 128h56" stroke="#8fa2bd" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 10"/>
+  <path d="M442 121l12 7-12 7z" fill="#8fa2bd"/>
+
+  <!-- Word document -->
+  <g>
+    <rect x="462" y="52" width="130" height="196" rx="10" fill="url(#doc)" stroke="#c9d4e4" stroke-width="2"/>
+    <g fill="#b3c0d4">
+      <rect x="478" y="70" width="98" height="8" rx="4"/>
+      <rect x="478" y="86" width="82" height="8" rx="4"/>
+    </g>
+    <g fill="#d5deea">
+      <rect x="478" y="110" width="98" height="6" rx="3"/>
+      <rect x="478" y="124" width="90" height="6" rx="3"/>
+      <rect x="478" y="138" width="98" height="6" rx="3"/>
+    </g>
+    <rect x="478" y="158" width="34" height="12" rx="4" fill="#c4551f"/>
+    <g fill="#d5deea">
+      <rect x="478" y="182" width="98" height="6" rx="3"/>
+      <rect x="478" y="196" width="72" height="6" rx="3"/>
+    </g>
+    <rect x="478" y="216" width="60" height="12" rx="4" fill="#1f2a44" opacity="0.12"/>
+  </g>
+
+  <!-- field markers around the citation -->
+  <g stroke="#c4551f" stroke-width="2" fill="none">
+    <path d="M470 152v-6a4 4 0 0 1 4-4h6"/>
+    <path d="M524 152v-6a4 4 0 0 0-4-4h-6"/>
+    <path d="M470 176v6a4 4 0 0 0 4 4h6"/>
+    <path d="M524 176v6a4 4 0 0 1-4 4h-6"/>
+  </g>
+</svg>

@@ -1,0 +1,60 @@
+{
+  "name": "dsh-zotero-cite",
+  "version": "0.1.0",
+  "description": "Write native Zotero citation and bibliography fields into Word documents from a local Zotero library",
+  "keywords": [
+    "dsh-plugin",
+    "zotero",
+    "citation",
+    "docx",
+    "word",
+    "csl"
+  ],
+  "license": "MIT",
+  "author": "VagrAntYuan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VagrAntYuan/dsh-zotero-cite.git"
+  },
+  "homepage": "https://github.com/VagrAntYuan/dsh-zotero-cite#readme",
+  "bugs": {
+    "url": "https://github.com/VagrAntYuan/dsh-zotero-cite/issues"
+  },
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": ">=0.2.2-rc.1 <0.3.0-0"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh-tools": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

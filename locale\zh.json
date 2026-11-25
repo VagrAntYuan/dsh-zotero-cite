@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Word 中的 Zotero 引用",
+    "description": "把 PDF 导入本地 Zotero 库，向 Word 写入原生引用字段，并生成引用合理性报告。",
+    "detail": "docs/DETAIL.zh.md"
+  }
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Zotero citations for Word">
+  <defs>
+    <linearGradient id="page" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e8eef7"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="20" fill="#1f2a44"/>
+  <path d="M30 16h26l14 14v50a6 6 0 0 1-6 6H30a6 6 0 0 1-6-6V22a6 6 0 0 1 6-6z" fill="url(#page)"/>
+  <path d="M56 16l14 14H56z" fill="#b9c7dd"/>
+  <g fill="#8497b5">
+    <rect x="34" y="42" width="28" height="3.5" rx="1.75"/>
+    <rect x="34" y="52" width="24" height="3.5" rx="1.75"/>
+    <rect x="34" y="62" width="18" height="3.5" rx="1.75"/>
+  </g>
+  <path d="M62 62a9 9 0 1 0 0 18 9 9 0 0 0 0-18zm-2 4.4h4v6.8l5 3-2 3.4-5-3.1v-3.5l-2-1.2z" fill="#c4551f"/>
+  <circle cx="70" cy="28" r="7" fill="#c4551f"/>
+  <path d="M66.6 28l2.4 2.4 4.4-4.6" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

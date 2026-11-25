@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Zotero citations for Word",
+    "description": "Import PDFs into the local Zotero library and write native Word citation fields, plus a citation review report.",
+    "detail": "docs/DETAIL.md"
+  }
+}
