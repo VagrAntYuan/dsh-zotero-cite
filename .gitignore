@@ -1,0 +1,8 @@
+node_modules/
+*.docx
+!test/fixtures/*.docx
+import_map.json
+csl_items.json
+duplicates_merge_instructions.json
+duplicates_merge_instructions.md
+citation_review_report.md
